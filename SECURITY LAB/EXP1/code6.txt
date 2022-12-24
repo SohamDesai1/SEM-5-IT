@@ -1,0 +1,14 @@
+cipher_text = "xfifruirs"
+stored_letters={}
+
+for char in cipher_text:
+    if char not in stored_letters:
+        stored_letters[char] = 1
+    else:
+        stored_letters[char] += 1 
+attempt = cipher_text.replace("i","\033[31me\033[0m")
+attempt = attempt.replace("f","\033[31mi\033[0m")
+attempt = attempt.replace("r","\033[31ms\033[0m")
+attempt = attempt.replace("u","\033[31mb\033[0m")
+print(attempt)
+print(stored_letters)

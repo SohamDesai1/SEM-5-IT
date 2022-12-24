@@ -1,0 +1,28 @@
+#Mono alphabetic Cipher
+plain_text = input("Enter the secret message: ").lower()
+letters = "abcdefghijklmnopqrstuvwxyz"
+
+
+key = input("Enter the key: ").lower()
+new_key = ""
+
+new_text = ""
+cipher_text= []
+
+for char in plain_text:
+    if char in letters:
+        new_text += char
+        
+for char in key:
+    if char in letters:
+        if char not in new_key:
+            new_key += char  
+
+for char in letters:
+    if char not in new_key:
+        new_key += char
+            
+def encrypt():
+    index_values=[letters.index(char) for char in new_text]
+    return "".join(new_key[indexKey] for indexKey in index_values)
+print(encrypt())
