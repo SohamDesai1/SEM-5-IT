@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.container {
+    background: white;
+    width: 22vw;
+    height: max-content;
+    border: 4px solid black;
+    border-radius: 25px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#user {
+    width: 20em;
+    height: 3em;
+}
+
+#password {
+    width: 20em;
+    height: 3em;
+}
+
+#submit {
+    width: 12vw;
+    height: 6vh;
+    font-size: 15px;
+    font-family: Arial;
+    border-width: 1px;
+    color: #fff;
+    cursor: pointer;
+    border-color: #0b0e07;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background: linear-gradient(#2dabf9, #0688fa);
+}
+
+#submit:hover {
+    background: linear-gradient(#0688fa, #2dabf9);
+
+}

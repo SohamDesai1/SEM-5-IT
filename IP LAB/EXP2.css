@@ -1,0 +1,45 @@
+center h1{
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+}
+.info{
+    width: 30%;
+    background-color: rgb(147, 125, 194);
+}
+.first:hover{
+    background-color: CYAN;
+    font-weight: bold ;
+}
+.second:hover{
+    background-color: CYAN;
+    font-weight: bold ;
+}
+.third:hover{
+    background-color: CYAN;
+    font-weight: bold ;
+}
+.table{
+    width: 30%;
+    background-color: rgba(0, 4, 255,0.3);
+}
+.table .fir:hover{
+    font-weight: bold;
+    color: darkred;
+}
+.table .sec:hover{
+    font-weight: bold;
+    color: darkred;
+}
+textarea:hover{
+    background-color: rgb(255, 234, 17);
+    color: rgb(255, 0, 0);
+}
+#save{
+    background-color: lightgreen;
+    color: green;
+}
+#save:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    color: black;
+}
